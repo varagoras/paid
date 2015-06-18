@@ -1142,20 +1142,33 @@ hr {
 /* CUSTOM */
 /**********/
 
+body {
+  color: #3F4149;
+}
 
+.header > img {
+  height: 36px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
 .header-title {
   font-weight: bold;
   float: left;
-  font-size: 3em;
-  font-size: 3rem;
-  line-height: 1.5em;
+  font-size: 2em;
+  font-size: 2rem;
+  line-height: 1em;
+  margin-left: 1em;
   margin-left: 1rem;
 }
 
 .cta-btn {
   font-size: 1.5em;
+  font-size: 1.5rem;
   padding: 1em;
   padding: 1rem;
+  line-height: 1.5em;
+  line-height: 1.5rem;
 }
 
 .join {
